@@ -238,7 +238,7 @@ $CONFIG = array (
     'app.mail.sieve.timeout' => 20,
    ```
    ###    Administrative Settings
-* All security checks should be passed.
+* All security checks should be passed. Troubleshoot anything you still need to do if it is not. Background job info is below.
 
 ![](https://github.com/ShyViolets/Server-Notes/blob/main/nextcloudsecuritypass.png?raw=true)
 
@@ -247,7 +247,7 @@ $CONFIG = array (
 ![](https://github.com/ShyViolets/Server-Notes/blob/main/administrationbasicsettings.png?raw=true)
 
    ### Nextcloud Cronjob Configuration
-Will present with an error if ownership and permissions are not correct. Follow below steps
+Will present with an error if ownership and permissions are not correct.  (if you messed up ownership settings somehow like I did during my setup). If not, skip. Otherwise, Follow below steps
 
 1.  Make sure that the user is set to 99: in the template.
 ![](https://github.com/ShyViolets/Server-Notes/blob/main/cron1template.png?raw=true)
@@ -264,8 +264,6 @@ In the console for Nextcloud-multimedia, run the following command.
 php ./occ preview:generate-all -vvv 
 ```
 Then add the following to cronjobs.
-
-----------
 
 Name:
 
