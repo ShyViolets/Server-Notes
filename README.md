@@ -117,8 +117,9 @@ fastcgi_request_buffering off;
 ```
 ## Nextcloud Configuration
   * All paths should mount directly to drive (i.e. /mnt/cache_ssd) not the user (/mnt/user)
+  * See Unraid template settings - PHP memory and upload changes are important.
   * Postgressql and Redis are both needed. Redis caching enabled.
-  * previews and cronjob will be setup
+  * previews and cronjob will be setup.
   * Used Nextcloud-multimedia and nextcloud-cronjob docker containers.
 ### Unraid Template
 ![Nextcloud Unraid Template](https://github.com/ShyViolets/Server-Notes/blob/main/nextcloudtemplate.png?raw=true)
