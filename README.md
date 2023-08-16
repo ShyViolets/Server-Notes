@@ -121,6 +121,7 @@ fastcgi_request_buffering off;
   * Postgressql and Redis are both needed. Redis caching enabled.
   * previews and cronjob will be setup.
   * Used Nextcloud-multimedia and nextcloud-cronjob docker containers.
+  * Nextcloud photos app is awful. Leave it so that you can use the Memories app ( i think it is dependent). But otherwise, just use memories for photos/video.
 ### Unraid Template
 ![Nextcloud Unraid Template](https://github.com/ShyViolets/Server-Notes/blob/main/nextcloudtemplate.png?raw=true)
 
